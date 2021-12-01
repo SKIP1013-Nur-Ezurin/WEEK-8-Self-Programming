@@ -1,0 +1,18 @@
+CREATE YOUR OWN PASSWORD
+Terms and Conditions :
+1. A password consists of uppercase letters, lowercase letters and digits.
+2. A password must contain same amount of uppercase letters and lowercase letters
+3. A password must have only eight characters. 
+Input a password: 
+Your password is abcd123
+The password did not have enough of the following:
+Your password did not have any uppercase letters
+
+CREATE YOUR OWN PASSWORD
+Terms and Conditions :
+1. A password consists of uppercase letters, lowercase letters and digits.
+2. A password must contain same amount of uppercase letters and lowercase letters
+3. A password must have only eight characters. 
+Input a password: abc12ABC
+Your password is abc12ABC
+VALID PASSWORD
