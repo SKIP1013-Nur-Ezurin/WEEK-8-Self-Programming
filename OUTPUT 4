@@ -1,0 +1,17 @@
+Enter initial bank balance = RM600
+Do you want to see next year balance ?
+Enter 1 for YES: 
+or ANY other number for NO: 
+1
+After year 1 at 0.03 interest rat, balanece is RM 618.0
+
+Do you want to see the balanceat the end of the another year?
+Enter 1 for yes
+or any other number for no :
+1
+After year 2 at 0.03 interest rat, balanece is RM 636.54
+
+Do you want to see the balanceat the end of the another year?
+Enter 1 for yes
+or any other number for no :
+9
