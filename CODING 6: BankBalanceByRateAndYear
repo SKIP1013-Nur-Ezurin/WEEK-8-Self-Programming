@@ -1,0 +1,40 @@
+package selfProgramming;
+import java.util.Scanner;
+public class BankBalanceByRateAndYear {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double initialBalance;
+		double balance;
+		int year;
+		double interest;
+		final double LOW = 0.02;
+		final double HIGH = 0.05;
+		final double INCREMENT = 0.01;
+		final double MAX_YEAR = 4;
+		
+		Scanner keyboard = new Scanner(System.in);
+		System.out.print("Enter an initial bank balance = RM ");
+		initialBalance = keyboard.nextDouble();
+		keyboard.nextLine();
+		
+		// loop that varies interest is the outer loop
+		for(interest = LOW; interest <= HIGH; interest += INCREMENT);
+		{
+			balance = initialBalance;
+			System.out.println();
+			System.out.printf("\nWith an initial balance of RM%.2f " ,balance);
+			System.out.printf("at an interest rate of %.2f " ,interest);
+			
+			//loop that varies year is the inner loop
+			for(year = 1; year <= MAX_YEAR; ++ year)
+			{
+				balance = balance + balance * interest;
+				System.out.println();
+				System.out.printf("After year " +year + " balance is RM%.2f" ,balance);
+			}
+		}
+		
+	}
+
+}
